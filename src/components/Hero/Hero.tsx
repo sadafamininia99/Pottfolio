@@ -8,6 +8,7 @@ import githubIcon from "../../assets/github.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import Hello from "../../assets/Hello.gif";
 import telegram from "../../assets/telegram.svg";
+import SADAFI from "../../assets/SADAFI AVECADO NEON .jpg";
 export function Hero() {
   return (
     <Container id="home">
@@ -65,7 +66,7 @@ export function Hero() {
 
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          {/* <img src={Illustration} alt="Ilustração" /> */}
+          <img src={SADAFI} alt="Amininia" />
         </ScrollAnimation>
       </div>
     </Container>
