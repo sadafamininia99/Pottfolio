@@ -1,37 +1,52 @@
 import { Container } from "./styles";
 // import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.png'
-import externalLink from "../../assets/external-link.svg"
+import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
-  
-
-      <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://kameleon.co.in/" target="_blank" rel="noreferrer">
+                <a href="http://diginext.ir" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Kameleon - Cloth Selling Site</h3>
+              <h3>Diginext.ir -StartUp</h3>
               <p>
-              This website sells men's cloth products and helps men look their best. It is easy to find what you need, whether it's cloth shirts, pants, or accessories. The site is useful for men who want to look their best and need some help.
+                Diginext is a movement to connect the country’s #1 eCommerce to
+                the country’s #1 Startups. We believe that innovation is the key
+                to solve tough challenges in society and to create our own
+                future together. We invest in startups with the potential to
+                have deep impact and enable better ways to live, by building new
+                business models and new technologies.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Shopify</li>
+                <li>Vuejs</li>
+                <li>Vuetify</li>
               </ul>
             </footer>
           </div>
@@ -40,23 +55,40 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://madewithluv.in/" target="_blank" rel="noreferrer">
+                <a href="https://menew.ir" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MadeWithLuv - HomeDecor Site</h3>
+              <h3>MeNEW - Personal Digital Menu</h3>
               <p>
-              This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help.
+                We help Restaurants to improve their management and efficiency
+                in that way. We believe Digital Menu is one of the essentials
+                when a restaurant launches five years from now. We have come to
+                this industry with a digital tool that has no end; opening
+                opportunities that had never existed.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
+                <li>React</li>
+                <li>Vuejs</li>
               </ul>
             </footer>
           </div>
@@ -65,23 +97,44 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="http://www.beeptunes.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MedicalBooks - Book Selling Site</h3>
+              <h3>BeepTunes - Digital music store </h3>
               <p>
-              This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
+                Beeptunes is the largest digital music store in Iran. We intend
+                to provide the best experience possible for all Iranian music
+                fans all over the world and encourage them to support the music
+                industry.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Bootstrap</li>
               </ul>
             </footer>
           </div>
@@ -114,22 +167,46 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://drrohitdamor.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://elitland.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
+              <h3>ElitLand- Movies, Videos, and Sound</h3>
               <p>
-              This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
+                ElitLand is an online service which provides a social network
+                for interested people and experts in the field of cinema with a
+                brand new perspective on cinema specialists. Upon launching this
+                social medium, many cinema experts will find the solution of
+                their problems in this environment, which in turn it will enrich
+                the contents and the services provided for the enthusiasts of
+                cinema.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
+                <li>React</li>
+                <li>Next.js</li>
               </ul>
             </footer>
           </div>
@@ -138,25 +215,46 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://app.exbito.com/register"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>VeloCityAI</h3>
+              <h3>Exbito-Financial Services</h3>
               <p>
-              VelocityAI is a website that allows users to get instant answers to any question and generate stunning AI pictures using OpenAI's GPT-3 and DALL-E model.With VelocityAI, users can type in text-based prompts and receive a corresponding response.
+                Exbito's intuitive interface facilitates seamless trading
+                experiences, while its robust security protocols ensure user
+                trust and confidentiality. With its comprehensive suite of tools
+                and resources, Exbito empowers users to navigate the
+                cryptocurrency market with confidence and ease.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>React</li>
                 <li>Typescript</li>
-                <li>Html</li>
-                <li>css</li>
+                <li>Next.js</li>
+                <li>GraphQl</li>
               </ul>
             </footer>
           </div>
@@ -186,31 +284,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://mayatmaj.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Mayatmaj - Film Production Site</h3>
-              <p>
-              This agency website promotes post production, virtual production, and video marketing services. It shows previous client work and reviews to get more business. If you need help with production, this website can give you information and connect you with the right people.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>              
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-       
-
+        <ScrollAnimation animateIn="flipInX"></ScrollAnimation>
       </div>
     </Container>
   );
