@@ -5,9 +5,8 @@ import Illustration from "../../assets/illustration.svg";
 import { NavHashLink } from "react-router-hash-link";
 import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
-import Hello from "../../assets/Hello.gif";
 import telegram from "../../assets/telegram.svg";
-import SADAFI from "../../assets/SADAFI AVECADO NEON .jpg";
+
 export function Hero() {
   return (
     <Container id="home">
@@ -54,12 +53,6 @@ export function Hero() {
               <img src={telegram} alt="telegram" />
             </a>
           </div>
-        </ScrollAnimation>
-      </div>
-
-      <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={SADAFI} alt="Amininia" />
         </ScrollAnimation>
       </div>
     </Container>
