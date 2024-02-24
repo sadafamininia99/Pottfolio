@@ -1,6 +1,6 @@
 # Portfolio of SADAF
 
-<img src ="https://github.com/sadafamininia99/Pottfolio/blob/main/Screenshot%201402-12-04%20at%201.56.57%20in%20the%20afternoon.png" />
+<img src ="https://github.com/sadafamininia99/Pottfolio/blob/main/Demo.png " alt="Amininia Sadaf />
 
 This project was created with CRA (Create React App)
 
