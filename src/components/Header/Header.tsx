@@ -44,7 +44,7 @@ export function Header() {
             Project
           </NavHashLink>
           <a href={CV} download className="button">
-            CV
+            Resume
           </a>
         </nav>
 

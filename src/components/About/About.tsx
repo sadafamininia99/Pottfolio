@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import Avocado from "../../../src/assets/avoco.svg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -86,11 +86,11 @@ export function About() {
           </div>
         </div>
       </div>
-      {/* <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+      <div className="about-image">
+        <ScrollAnimation animateIn="fadeInRight">
+          <img src={Avocado} alt="I do love Avocados " />
         </ScrollAnimation>
-      </div> */}
+      </div>
     </Container>
   );
 }
