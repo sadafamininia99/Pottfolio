@@ -2,6 +2,7 @@ import Particles from "react-tsparticles";
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
+import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -248,7 +249,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </Container>
   );
 }

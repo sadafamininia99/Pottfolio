@@ -18,10 +18,11 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
             Hi there! I'm SADFA,I am a highly motivated and ambitious front-end
-            developer with 3 years of experience in developing and implementing
+            developer with +4 years of experience in developing and implementing
             user-centric web solutions. I have a strong understanding of
             frontend technologies such as HTML, CSS, and JavaScript and have a
             passion for creating visually appealing and responsive websites. I

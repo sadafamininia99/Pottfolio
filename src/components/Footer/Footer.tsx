@@ -12,7 +12,7 @@ export function Footer() {
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+          <span>❤️</span>
         </p>
       </div>
 
@@ -38,6 +38,9 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
+        </a>
+        <a href="https://t.me/DevAcaademy" target="_blank" rel="noreferrer">
+          <img src={telegram} alt="telegram" />
         </a>
       </div>
     </Container>
