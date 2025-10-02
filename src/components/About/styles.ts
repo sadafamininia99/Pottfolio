@@ -6,92 +6,100 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
-  .hard-skills{
+  .hard-skills {
     margin-top: 1.6rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.8rem;
   }
-  .hability{
+
+  .hability {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    img{
+    img {
       width: 3.4rem;
     }
   }
 
-  h2{
+  h2 {
     display: inline-block;
     margin-bottom: 2rem;
-    // border-bottom: 0.2rem solid var(--blue);
-    font-size :3rem;
+    font-size: 3rem;
     margin-top: 0rem;
     color: var(--green);
   }
 
-  h3{
+  h3 {
     margin-top: 2rem;
     color: var(--green);
   }
 
-  p{
+  p {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
   }
-  
-  
 
-  .about-image{
+  .about-image {
     text-align: center;
-   img{
-     margin-top: 1rem;
-     width: 50%;
-     filter: grayscale(0);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
-   }
+
+    img {
+      margin-top: 1rem;
+      width: 50%;
+      filter: grayscale(0);
+      transition: filter 0.5s;
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
   }
 
+  /* Mobile: up to 480px */
   @media only screen and (max-width: 480px) {
     .about-image {
       max-width: 100%;
       margin-top: 4rem;
-      img{
+
+      img {
         margin-top: 2rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
-        &:hover{
+
+        &:hover {
           filter: grayscale(0);
         }
+      }
     }
   }
 
-  @media (max-width: 960px){
+  /* Tablet: up to 960px */
+  @media (max-width: 960px) {
     display: block;
     text-align: center;
-    
-    .hard-skills{
+
+    .hard-skills {
       justify-content: center;
     }
-    .about-image{
+
+    .about-image {
       display: flex;
       max-width: 100%;
-      img{
+
+      img {
         margin-top: 2rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
-        &:hover{
+
+        &:hover {
           filter: grayscale(0);
         }
+      }
     }
-    
-    
   }
+`;
