@@ -1,20 +1,33 @@
+# 🌟 Portfolio of Sadaf  
 
-# 🌟 Portfolio of Sadaf
-<a href="https://sadafamininia-portfolio.vercel.app/">
-My Portfoiolo 
-</a>
-<br/>
-This project was created with CRA (Create React App)
+🔗 [Visit my portfolio](https://sadafamininia-portfolio.vercel.app/)  
 
-This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
+This is my personal portfolio website built with **React** and **TypeScript**, designed to showcase my skills, projects, and contact details in a clean and modern way.  
 
-## Technologies used:
+---
 
-- React
-- Typescript
-- Styled Components
+## ✨ Features  
+- 📂 Showcase of projects and work experience  
+- 🛠️ Skills section highlighting frontend expertise  
+- 📬 Contact details for easy communication  
+- 🎨 Styled with **Styled Components** for modular and maintainable design  
 
-## To run this project:
+---
 
-- yarn install
-- yarn run start
+## 🖥️ Technologies Used  
+- ⚛️ React  
+- 🟦 TypeScript  
+- 💅 Styled Components  
+
+---
+
+## 🚀 Getting Started  
+
+To run this project locally:  
+
+```bash
+# Install dependencies
+yarn install
+
+# Start the development server
+yarn start
