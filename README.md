@@ -1,4 +1,4 @@
-# 🌟 Portfolio of Sadaf  
+# 🌟 Portfolio of Sadaf Amini
 
 🔗 [Visit my portfolio](https://sadafamininia-portfolio.vercel.app/)  
 
