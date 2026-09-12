@@ -1,0 +1,33 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: "27 11 * * *"
+      timezone: "Asia/Tehran"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create daily commit
+        run: |
+          echo "Daily commit: $(date '+%Y-%m-%d %H:%M:%S')" >> daily-commits.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "amininia"
+          git config user.email "aminicomputer96@gmail.com"
+
+          git add daily-commits.txt
+          git commit -m "chore: daily commit push"
+          git push
