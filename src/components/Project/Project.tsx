@@ -28,13 +28,102 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://app.exbito.com/register"
+                  href="https://sepidsystem.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
+            </header>
+            <div className="body">
+              <h3>Sepid System </h3>
+              <p>
+                Sepid System knowledge-based company with more than a decade of
+                experience using modern biometric methods such as face
+                recognition, fingerprint recognition, iris recognition and smart
+                cards, provides comprehensive authentication solutions for
+                movement control and access management in various companies' and
+                organizations' systems, like digital authentication, attendance,
+                and safe deposit box access management for banks and financial
+                institutions.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://webruno.ir/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>WebRuno</h3>
+              <p>
+                WebRuno was founded in 2021 with a simple yet powerful mission:
+                to democratize technology for Iranian businesses. We believed
+                that every business, regardless of its size or industry, should
+                have access to the benefits of a professional online presence
+                and advanced management systems. After witnessing the challenges
+                business owners faced in launching and managing websites and CRM
+                systems, our team came together to create an integrated,
+                affordable, and user-friendly solution. Today, we are proud to
+                have become one of the leading providers of digital solutions
+                for Iranian businesses.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>Next.js</li>
+                <li>GraphQl</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
             </header>
             <div className="body">
               <h3>Estdco </h3>
@@ -152,6 +241,51 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href="http://www.beeptunes.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>BeepTunes - Digital music store </h3>
+              <p>
+                Beeptunes is the largest digital music store in Iran. We intend
+                to provide the best experience possible for all Iranian music
+                fans all over the world and encourage them to support the music
+                industry.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -233,52 +367,6 @@ export function Project() {
               <ul className="tech-list">
                 <li>React</li>
                 <li>Vuejs</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="http://www.beeptunes.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>BeepTunes - Digital music store </h3>
-              <p>
-                Beeptunes is the largest digital music store in Iran. We intend
-                to provide the best experience possible for all Iranian music
-                fans all over the world and encourage them to support the music
-                industry.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Bootstrap</li>
               </ul>
             </footer>
           </div>

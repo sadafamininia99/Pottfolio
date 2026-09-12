@@ -4,7 +4,6 @@ import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import telegram from "../../assets/telegram.svg";
 import instagramIcon from "../../assets/instagram.svg";
-import discordIcon from "../../assets/discord.png";
 
 export function Footer() {
   return (
@@ -12,7 +11,7 @@ export function Footer() {
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-          <span>❤️</span>
+          <span>🥑</span>
         </p>
       </div>
 
