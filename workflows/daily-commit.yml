@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "22 11 * * *"
+    - cron: "27 11 * * *"
       timezone: "Asia/Tehran"
   workflow_dispatch:
 
@@ -25,7 +25,7 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "sadafamininia99"
+          git config user.name "amininia"
           git config user.email "aminicomputer96@gmail.com"
 
           git add daily-commits.txt
