@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "41 11 * * *"
+    - cron: "49 11 * * *"
       timezone: "Asia/Tehran"
   workflow_dispatch:
 
