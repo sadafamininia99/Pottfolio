@@ -22,9 +22,9 @@ jobs:
           echo "Daily commit: $(date '+%Y-%m-%d %H:%M:%S')" >> daily-commits.txt
 
       - name: Commit and push
-         run: |
-    git config user.name "Sadaf Amini"
-    git config user.email "your-email@example.com"
-    git add daily-commits.txt
-    git commit -m "chore: daily commit"
-    git push
+        run: |
+          git config user.name "Sadaf Amini"
+          git config user.email "YOUR_GITHUB_EMAIL"
+          git add daily-commits.txt
+          git commit -m "chore: daily commit"
+          git push
