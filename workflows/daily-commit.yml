@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "22 11 * * *"
       timezone: "Asia/Tehran"
   workflow_dispatch:
 
@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create daily commit
         run: |
@@ -23,8 +25,9 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "Sadaf Amini"
-          git config user.email "YOUR_GITHUB_EMAIL"
+          git config user.name "sadafamininia99"
+          git config user.email "aminicomputer96@gmail.com"
+
           git add daily-commits.txt
           git commit -m "chore: daily commit"
           git push
