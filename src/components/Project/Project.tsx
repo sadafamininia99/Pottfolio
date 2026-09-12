@@ -101,7 +101,6 @@ export function Project() {
                 <li>React</li>
                 <li>Typescript</li>
                 <li>Next.js</li>
-                <li>GraphQl</li>
               </ul>
             </footer>
           </div>
