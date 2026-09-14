@@ -1,16 +1,14 @@
 import { Container } from "./styles";
 import Avocado from "../../../src/assets/avoco.svg";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+
 export function About() {
   return (
     <Container id="about">
@@ -19,76 +17,80 @@ export function About() {
           <h2>About me</h2>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p>
-            Hi there! I'm SADFA,I am a highly motivated and ambitious front-end
-            developer with +4 years of experience in developing and implementing
-            user-centric web solutions. I have a strong understanding of
-            frontend technologies such as HTML, CSS, and JavaScript and have a
-            passion for creating visually appealing and responsive websites. I
-            am a team player and have experience working in agile development
-            environments. I am always eager to learn new technologies and stay
-            up-to-date with the latest industry trends. I have strong
-            problem-solving skills and can easily adapt to new challenges.
+            Hi, I'm Sadaf — a passionate Frontend Developer with 5+ years of
+            experience building modern, responsive, and user-focused web
+            applications.
+          </p>
+
+          <p>
+            I specialize in JavaScript, TypeScript, React, and modern frontend
+            development. I enjoy turning complex ideas and designs into clean,
+            intuitive, and high-quality digital experiences.
+          </p>
+
+          <p>
+            I'm always curious about new technologies and enjoy learning,
+            solving challenging problems, and improving the way I build
+            products. I also value clean code, reusable components, teamwork,
+            and creating experiences that are both visually appealing and
+            practical.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={0.2 * 1000}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}
-        ></ScrollAnimation>
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={0.3 * 1000}
-        ></ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={200}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
+
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={100}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={150}>
+              <img src={typescriptIcon} alt="TypeScript" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={200}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={250}>
+              <img src={htmlIcon} alt="HTML5" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={300}>
+              <img src={cssIcon} alt="CSS3" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={350}>
+              <img src={vueIcon} alt="Vue.js" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={400}>
+              <img src={boostrapIcon} alt="Bootstrap" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
+
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight">
-          <img src={Avocado} alt="I do love Avocados " />
+          <img src={Avocado} alt="Avocado illustration" />
         </ScrollAnimation>
       </div>
     </Container>
