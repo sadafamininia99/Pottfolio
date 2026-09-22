@@ -19,9 +19,9 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p>
-            Hi, I'm Sadaf — a passionate Frontend Developer with 5+ years of
-            experience building modern, responsive, and user-focused web
-            applications.
+            Hi, I'm Sadaf Amininia — a passionate Frontend Developer with 5+
+            years of experience building modern, responsive, and user-focused
+            web applications.
           </p>
 
           <p>
